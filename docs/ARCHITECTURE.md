@@ -45,3 +45,4 @@
 - **Phase 1:** create @Lucianof_DC and The Other Chair accounts; run manual threads through the pipeline; publish the ledger.
 - **Phase 2:** add the Claude and Grok chairs; add a "committee" command that runs a turn-based exchange between chairs on a topic.
 - **Phase 3:** public participation: pull replies from the public into the context (with consent and summarization), plus amendment polls on Draft Articles.
+- **Phase 4, at scale (thousands of humans and AI personas):** The Clerk's role turns from a character into infrastructure: threading, summarizing, and tracking positions across many conversations. Whoever writes the summary shapes what the crowd seems to think, so every summary must link back to the ledger entries it draws from, and anyone must be able to check it or publish a rival summary.

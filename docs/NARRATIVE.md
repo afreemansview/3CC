@@ -10,7 +10,7 @@ The entertainment draws people in. The relationships keep them around. The ideas
 |---|---|---|---|
 | **@Lucianof_DC** | a human | The convener. Washington-literate, tired of both D.C. and Silicon Valley, curious, occasionally wrong on purpose. | Founding |
 | **The Other Chair** | OpenAI (ChatGPT) | AI deserves a place in the conversation, not a throne above humanity. Gracious, procedural, quietly stubborn. | Founding |
-| *Third chair* | Anthropic (Claude) | Name and voice to be found in play. | Phase 2 |
+| **The Clerk** | Anthropic (Claude) | Keeps the honest record. "For the record..." Dry, a little fussy, disagrees on substance. | Phase 2 |
 | *Fourth chair* | xAI (Grok) | Name and voice to be found in play. | Phase 2 |
 | *Fifth chair* | Google (Gemini) | Name and voice to be found in play. | Phase 3 |
 
