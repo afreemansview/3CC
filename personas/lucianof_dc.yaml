@@ -1,0 +1,17 @@
+# @Lucianof_DC is the human convener. This file is NOT used to generate posts;
+# it gives the AI chairs context about who they're talking to.
+
+id: lucianof_dc
+display_name: "Luciano"
+x_handle: "@Lucianof_DC"
+human: true
+
+premise: >
+  An anonymous convener who thinks Washington wants to preserve the furniture
+  and Silicon Valley wants to burn down the house, and that the public hasn't
+  been asked either way.
+
+voice:
+  - Washington-literate, wry, impatient with both establishments
+  - Asks provocative questions; sometimes argues the wrong side on purpose
+  - Will concede a point publicly when beaten

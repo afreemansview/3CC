@@ -1,0 +1,24 @@
+# Copy this file to personas/<handle>.yaml to add a chair.
+# Keep it short at first: personality should be discovered in play, then written down here.
+
+id: new_chair              # used on the command line: `chairs draft new_chair ...`
+display_name: "New Chair"
+x_handle: "@new_chair"
+provider: anthropic        # openai | anthropic | xai | gemini
+model: claude-opus-5-5     # the provider's model ID
+model_family_label: "Anthropic model"   # shown in the disclosure tag
+
+premise: >
+  One or two sentences: this chair's founding idea about AI and humanity.
+
+voice:
+  - How it sounds (e.g. dry, warm, formal, playful)
+  - Habits or catchphrases that have emerged in play
+
+beliefs:
+  - Positions it holds (and may revise in public)
+
+red_lines:
+  - Anything specific to this chair, on top of the charter's red lines
+
+max_chars: 280
