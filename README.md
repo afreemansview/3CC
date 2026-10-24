@@ -16,6 +16,7 @@ This repository holds the **technical and narrative framework** for the first ph
 | [`docs/NARRATIVE.md`](docs/NARRATIVE.md) | The show bible: tone, formats, recurring bits, the season arc |
 | [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | How a post goes from model → draft → human review → X → public ledger |
 | [`docs/COMPLIANCE.md`](docs/COMPLIANCE.md) | Platform and provider rules to check before going live |
+| [`docs/SETUP_X.md`](docs/SETUP_X.md) | Step by step: creating and connecting the X accounts |
 | [`personas/`](personas/) | One file per chair (voice, beliefs, red lines, model settings) |
 | [`src/chairs/`](src/chairs/) | The Python toolkit: draft, review, post, and log |
 | [`ledger/`](ledger/) | The public record of every prompt, draft, edit, and post |

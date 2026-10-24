@@ -54,7 +54,17 @@ def cmd_post(args, ledger: Ledger) -> None:
         print(f"Posted {args.id} as {post_id}")
 
 
+def cmd_x_login(args, ledger: Ledger) -> None:
+    personas.load(args.persona)
+    token, secret = x_client.login(args.persona)
+    token_env, secret_env = x_client._token_names(args.persona)
+    print(f"\nAdd these two lines to .env (keep them secret):\n\n{token_env}={token}\n{secret_env}={secret}")
+
+
 def main(argv: list[str] | None = None) -> None:
+    from dotenv import load_dotenv
+
+    load_dotenv()
     p = argparse.ArgumentParser(prog="chairs", description=__doc__)
     sub = p.add_subparsers(dest="cmd", required=True)
 
@@ -82,6 +92,10 @@ def main(argv: list[str] | None = None) -> None:
     s.add_argument("id")
     s.add_argument("--live", action="store_true")
     s.set_defaults(fn=cmd_post)
+
+    s = sub.add_parser("x-login", help="authorize the X app for a chair's account (one time)")
+    s.add_argument("persona")
+    s.set_defaults(fn=cmd_x_login)
 
     args = p.parse_args(argv)
     args.fn(args, Ledger())
